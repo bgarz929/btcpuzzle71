@@ -1,0 +1,4 @@
+#Pool Puzzle BTC #71
+![RANGE CONTROL](picb2.JPG)
+
+![PROCESS SEARCHING PUZZLE](picb3.JPG)
