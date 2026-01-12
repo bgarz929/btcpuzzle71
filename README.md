@@ -12,9 +12,10 @@ Second step => enter the ID in the code execution in Colab to be searched
 The status in the dashboard list will change to in progress (the search is in progress for that range)
 ![RANGE CONTROL](puz43_21.JPG)
 
-If the process is complete and the private key is found in that range, it will be visible in the process output in Colab.
+If the process completes and the private key is found in the range, it will be visible in the process output in Colab and in the dashboard list.
+![PROCESS SEARCHING PUZZLE](puz43_4.JPG)
+
 ![PROCESS SEARCHING PUZZLE](puz43_3.JPG)
 
-![PROCESS SEARCHING PUZZLE](puz43_4.JPG)
 
 
