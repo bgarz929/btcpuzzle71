@@ -15,4 +15,6 @@ The status in the dashboard list will change to in progress (the search is in pr
 If the process is complete and the private key is found in that range, it will be visible in the process output in Colab.
 ![PROCESS SEARCHING PUZZLE](puz43_3.JPG)
 
+![PROCESS SEARCHING PUZZLE](puz43_4.JPG)
+
 
