@@ -1,21 +1,106 @@
-This project was built to overcome the limitations of GPU resources that may need to be turned off/or turned off by cloud services due to running out of usage credits, or the use of free cloud GPU services such as Colab or Lightning.ai where the user service only provides a time limit of a few hours, but don't worry, by using the tool from my project, you can continue searching for keys in the previously stopped range. You can reset the inprogress range ID if your GPU machine previously stopped while searching in that batch ID. If you are interested in my project, you can submit a request via WhatsApp: +6281553020811
-#Pool Puzzle BTC #71
+# 🔐 BTC Puzzle Pool Search — Puzzle #71
 
-Below is an example of solving BTC Puzzle #43. Here's how to use this method:
+![Platform](https://img.shields.io/badge/platform-Linux-blue)
+![GPU](https://img.shields.io/badge/GPU-CUDA%20%7C%20Cloud-green)
+![Status](https://img.shields.io/badge/status-Active-success)
+![License](https://img.shields.io/badge/license-Research%20Only-red)
 
-First step => (get the ID (range) to search in the range list on the dashboard)
-![RANGE CONTROL](puz43_1.JPG)
+A **resilient, restartable, pool-based Bitcoin puzzle key search framework**  
+designed specifically for **limited cloud GPU environments**.
 
-Second step => enter the ID in the code execution in Colab to be searched
-![RANGE CONTROL](puz43_2.JPG)
+---
 
-The status in the dashboard list will change to in progress (the search is in progress for that range)
-![RANGE CONTROL](puz43_21.JPG)
+## 📌 Overview
 
-If the process completes and the private key is found in the range, it will be visible in the process output in Colab and in the dashboard list.
-![PROCESS SEARCHING PUZZLE](puz43_4.JPG)
+Cloud GPU platforms such as **Google Colab**, **Lightning.ai**, and other free-tier services often impose:
 
-![PROCESS SEARCHING PUZZLE](puz43_3.JPG)
+- ⏱ Execution time limits  
+- 💳 Usage credit restrictions  
+- ⚠️ Unexpected GPU shutdowns  
 
+These limitations frequently interrupt long-running Bitcoin key search operations.
 
+🚀 **This project eliminates wasted computation** by enabling:
+- Range-based searching
+- Seamless continuation after interruptions
+- Pool-based distributed coordination
 
+---
+
+## ✨ Features
+
+- 🔄 **Resume Interrupted Searches**  
+  Continue scanning exactly from the last stopped key range.
+
+- 🧩 **Range & Batch Management**  
+  Each worker operates on an assigned range ID.
+
+- ☁️ **Cloud GPU Optimized**  
+  Built for Colab, Lightning.ai, and ephemeral GPU instances.
+
+- 🛠 **Resettable In-Progress Ranges**  
+  Recover and reassign ranges after crashes or timeouts.
+
+---
+
+## 🎯 Target Puzzle
+
+| Puzzle | Address |
+|------|--------|
+| BTC Puzzle #71 | `1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU` |
+
+---
+
+## 🔑 Getting Started
+
+### 1️⃣ Obtain a Range ID
+
+All searches are coordinated through a central dashboard.
+
+👉 **Range Dashboard**  
+https://pythonclusters-206868-0.cloudclusters.net/
+
+Select an available range ID before starting your search.
+
+---
+
+### 2️⃣ Run the Search Tool
+
+```bash
+wget https://github.com/bgarz929/btcpuzzle71/raw/refs/heads/main/xiebo \
+&& chmod +x xiebo \
+&& ./xiebo --batch-db 0 13 1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU
+```
+
+---
+
+## 🧪 Example — Solving BTC Puzzle #43
+
+### Step 1 — Select Range ID
+![Range Control](puz43_1.JPG)
+
+### Step 2 — Execute Search
+![Execution](puz43_2.JPG)
+
+### Step 3 — Monitor Progress
+![In Progress](puz43_21.JPG)
+
+### Step 4 — Key Found
+![Search Process](puz43_4.JPG)
+![Result Output](puz43_3.JPG)
+
+---
+
+## 🤝 Participation & Access
+
+📱 **WhatsApp:** +62 815-5302-0811
+
+---
+
+## ⚠️ Disclaimer
+
+This project is provided for **research and educational purposes only**.
+
+---
+
+**Built for resilience. Designed for continuation.**
