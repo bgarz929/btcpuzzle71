@@ -66,13 +66,13 @@ Select an available range ID before starting your search.
 
 ### 2️⃣ Run the Search Tool
 
-####single gpu
+#### single gpu
 ```bash single gpu
 wget https://github.com/bgarz929/btcpuzzle71/raw/refs/heads/main/xiebo \
 && chmod +x xiebo \
 && ./xiebo --batch-db 0 13 1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU
 ```
-####multi gpu
+#### multi gpu
 ```bash multi gpu
 wget https://github.com/bgarz929/btcpuzzle71/raw/refs/heads/main/xiebo \
 && chmod +x xiebo \
